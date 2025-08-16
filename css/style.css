@@ -56,6 +56,10 @@ main {
     padding: 20px;
 }
 
+main .main_para{
+    color: black;
+}
+
 main section {
     text-align: center;
     padding: 50px 20px;
@@ -249,3 +253,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
