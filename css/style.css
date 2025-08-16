@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 26px;
+    width: auto;
+    margin-right: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ff4757;
+    color: #fff;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 800px;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #383838;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+main section {
+    text-align: center;
+    padding: 50px 20px;
+    margin: 20px 0;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+
+main section:nth-child(1) {
+    background: url('/images/zomato.png') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 20px;
+    margin: 0;
+}
+
+main input::placeholder {
+    color: #aaa;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+main input:focus {
+    border-color: #ff4757;
+}
+
+main input:focus::placeholder {
+    transform: translateY(-10px);
+    opacity: 0;
+}
+
+main img {
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+main input {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #d0d0d0;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+    transition: border-color 0.3s;
+}
+
+main input:focus {
+    border-color: #ff4757;
+}
+
+/* Delivery Section */
+.delivery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    text-align: left;
+}
+
+.delivery-card {
+    flex: 0 0 300px;
+    background-color: #fff;
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.delivery-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.delivery-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.delivery-card h3 {
+    font-size: 20px;
+    margin: 15px;
+    color: #333;
+}
+
+.delivery-card p {
+    font-size: 14px;
+    margin: 0 15px 15px;
+    color: #666;
+}
+
+.delivery-card a {
+    display: inline-block;
+    margin: 15px;
+    padding: 8px 15px;
+    color: #fff;
+    background-color: #ff4757;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.delivery-card a:hover {
+    background-color: #e33e4e;
+}
+
+/* Collection Section Styling */
+.collection {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.collection h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.collection-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.collection-card {
+    flex: 0 0 250px;
+    background-color: #fff;
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.collection-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.collection-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.collection-card h3 {
+    font-size: 20px;
+    margin: 15px 0;
+    color: #333;
+}
+
+.collection-card p {
+    font-size: 14px;
+    margin: 0 15px 15px;
+    color: #666;
+}
+
+.collection-card a {
+    display: inline-block;
+    margin: 15px;
+    padding: 8px 15px;
+    color: #fff;
+    background-color: #ff4757;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.collection-card a:hover {
+    background-color: #e33e4e;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff4757;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

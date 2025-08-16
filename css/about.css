@@ -1,0 +1,87 @@
+/* About Us Section */
+.about-us {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+}
+
+.about-us h2 {
+    font-size: 28px;
+    color: #ff4757;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Contact Us Section */
+.contact-us {
+    background-color: #fff;
+    padding: 50px 20px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+}
+
+.contact-us h2 {
+    font-size: 28px;
+    color: #ff4757;
+    margin-bottom: 20px;
+}
+
+.contact-us form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-us input,
+.contact-us textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.contact-us input:focus,
+.contact-us textarea:focus {
+    border-color: #ff4757;
+    box-shadow: 0 0 5px rgba(255, 71, 87, 0.5);
+}
+
+.contact-us textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-us button {
+    background-color: #ff4757;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.contact-us button:hover {
+    background-color: #e33e4e;
+    transform: scale(1.05);
+}
